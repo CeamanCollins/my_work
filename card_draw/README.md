@@ -2,7 +2,9 @@
 
 ## Overview
 
-This [**Card Draw**](./carddraw.py) script was created as part of the *Web Services and Applications* module at ATU. The script uses an API to draw a hand of 5 cards and display them to the user. It also checks for special poker hands, such as pairs, triples, straights, or flushes, and congratulates the user if any are drawn.
+This **Card Draw** script was created as part of the *Programming and Scripting* module as part of the Higher Diploma in Science in Computing (Data Analytics) at Atlantic Technological University (ATU). 
+
+The script uses an API to draw a hand of 5 cards and display them to the user. It also checks for special poker hands, such as pairs, triples, straights, or flushes, and congratulates the user if any are drawn.
 
 The goal of this project was to demonstrate knowledge of APIs in Python and handling structured data with dictionaries, sets, and lists.
 
@@ -47,6 +49,8 @@ The goal of this project was to demonstrate knowledge of APIs in Python and hand
    ```bash
    [path-to-python]\python.exe carddraw.py
    ```
+
+You can view the script [here](./carddraw.py).
 
 ---
 
