@@ -1,18 +1,85 @@
 # Card Draw
 
-As a part of the Web Services and Applications module at ATU, I was assigned to create a script that used an API to draw a hand of 5 cards and display them.
+## Overview
 
-As a further challenge we could modify the script to check if the user has drawn a pair, triple, straight, or all of the same suit and congratulate the user.
+This [**Card Draw**](./carddraw.py) script was created as part of the *Web Services and Applications* module at ATU. The script uses an API to draw a hand of 5 cards and display them to the user. It also checks for special poker hands, such as pairs, triples, straights, or flushes, and congratulates the user if any are drawn.
 
-The code uses a combination of dictionaries, sets and lists to detect all special poker hands, declare the special hand and congratulate the user. 
+The goal of this project was to demonstrate knowledge of APIs in Python and handling structured data with dictionaries, sets, and lists.
 
-This script can be run in codespaces or downloaded and run with python. It requires no packages outside the standard library.
+---
 
-References used:
+## Features
 
-- https://deckofcardsapi.com/
-- https://stackoverflow.com/questions/17663299/creating-an-empty-set
-- https://www.w3schools.com/python/ref_string_capitalize.asp
-- https://www.w3schools.com/python/python_ref_set.asp
-- https://stackoverflow.com/questions/7368789/convert-all-strings-in-a-list-to-integers
-- https://www.w3schools.com/python/python_ref_dictionary.asp
+- Draws 5 cards from a virtual deck using the [Deck of Cards API](https://deckofcardsapi.com/).
+- Detects special poker hands, including:
+  - Pairs
+  - Triples
+  - Straights
+  - Flushes
+  - Full houses
+  - Four of a kind
+- Provides congratulatory messages based on the detected hand.
+
+---
+
+## How to Run
+
+### Running in GitHub CodeSpaces:
+1. Open the repository in [GitHub CodeSpaces](https://github.com/features/codespaces).
+2. Navigate to the **card_draw** folder.
+3. Execute the program by running:
+   ```bash
+   python carddraw.py
+   ```
+
+### Running Locally:
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/CeamanCollins/my_work.git
+   cd my_work/card_draw
+   ```
+2. Ensure Python is installed on your machine.
+3. Run the program:
+   ```bash
+   python carddraw.py
+   ```
+   On Windows:
+   ```bash
+   [path-to-python]\python.exe carddraw.py
+   ```
+
+---
+
+## Technologies Used
+
+- **Python**: The core programming language used for the script.
+- **API Integration**: Utilized the [Deck of Cards API](https://deckofcardsapi.com/) to simulate card drawing.
+- **Standard Library**: Features Python's built-in data structures such as dictionaries, sets, and lists for data processing.
+- **GitHub CodeSpaces**: Used for testing and running the script in the cloud-based development environment.
+
+---
+
+## References
+
+The following resources were used during development:
+- [Deck of Cards API Documentation](https://deckofcardsapi.com/)
+- [Creating an Empty Set in Python](https://stackoverflow.com/questions/17663299/creating-an-empty-set)
+- [Python String Methods: capitalize()](https://www.w3schools.com/python/ref_string_capitalize.asp)
+- [Python Reference: Sets](https://www.w3schools.com/python/python_ref_set.asp)
+- [Converting Strings in a List to Integers](https://stackoverflow.com/questions/7368789/convert-all-strings-in-a-list-to-integers)
+- [Python Reference: Dictionaries](https://www.w3schools.com/python/python_ref_dictionary.asp)
+
+---
+
+## Future Enhancements
+
+- Adding more poker hand rankings such as straight flushes and royal flushes.
+- Creating a GUI-based interface for an optimized user experience.
+- Allowing players to input their own cards to check for poker hands.
+- Implementing a "high card" detection as a fallback for no special hands.
+
+---
+
+## Contact
+
+If you have any questions, issues, or suggestions related to this project, feel free to contact **Céaman Collins** via [GitHub](https://github.com/CeamanCollins).
