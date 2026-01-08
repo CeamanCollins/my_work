@@ -1,23 +1,76 @@
 # My Work
 
-A repository for completed projects.
+## Overview
+
+This repository contains a collection of completed projects and scripts, showcasing a variety of tasks designed to strengthen and demonstrate programming skills. Each project tackles unique challenges and provides opportunities to explore different areas of software development.
+
+---
 
 ## Contents
 
-1. Maths Game
+### 1. Maths Game
+- A simple mathematics game with various modes designed to help users practice basic math skills.
+- **How to Run**:  
+  - In CodeSpaces or VSCode, or via the command line:
+    ```bash
+    python mathsgame.py
+    ```
+    On Windows:
+    ```bash
+    [path-to-python]\python.exe mathsgame.py
+    ```
+- **Requirements**: No external packages are required; the script uses only Python's standard library.
 
-Simple maths game. Has various modes for practicing basic maths skills.
-Runs in codespaces, in VSCode or from command line using `python mathsgame.py` in unix based systems or `[path to python]\python.exe mathsgame.py` on Windows.
-This script requires no packages outside the standard library.
+---
 
-2. Electricity Rates Project
+### 2. Electricity Rates Project
+- Several notebooks analyze 2024 electricity usage data for multiple addresses and compare it to various tariffs to determine the best option. The project includes visualizations of electricity consumption and feed-ins for better decision-making.
+- **How to Run**:  
+  - View the notebooks on GitHub or execute them in CodeSpaces, VSCode, or a local Jupyter Notebook server.
+- **Requirements**: Dependencies can be installed as follows:
+  - **Using Pip**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - **Using Conda**:
+    ```bash
+    conda create --name <environment-name> --file requirements.txt
+    ```
 
-This folder contains several files as part of an analysis of the 2024 electricity usage for several addresses and then compares them to available tariffs in order to make an informed choice and select the best available tariff.
-This can be viewed in GitHub and code in the Jupyter Notebook can be executed in blocks in codespaces, VSCode or on a Jupyter Notebook server.
-This notebook has a requirements file and requires modules outside the standard library.
+---
 
-3. Card Draw
+### 3. Card Draw
+- A script that uses an API to draw 5 cards from a virtual deck and congratulates the user if a special poker hand is drawn (e.g., pairs, triples, straights, flushes, etc.).
+- **How to Run**:  
+  - In CodeSpaces or VSCode, or via the command line:
+    ```bash
+    python carddraw.py
+    ```
+    On Windows:
+    ```bash
+    [path-to-python]\python.exe carddraw.py
+    ```
+- **Requirements**: No external packages are required; the script uses only Python's standard library.
 
-This is a short script that uses an API to draw 5 cards from a deck and congratulates the user if special hands are drawn, everything from pairs to straights.
-Runs in codespaces, in VSCode or from command line using `python carddraw.py` or `[path to python]\python.exe carddraw.py`.
-This script requires no packages outside the standard library.
+---
+
+## How to Get Started
+
+1. **Choose a Project**: Navigate to one of the project folders (`maths_game`, `electricity_rates`, or `card_draw`) to explore the specifics.
+2. **Run the Code**: Follow the setup and execution instructions for each project to run them in your local or cloud-based Python environment.
+3. **Install Dependencies**: For projects requiring dependencies, use `pip` or `conda` as described above.
+
+---
+
+## Technologies Used
+
+- **Python**: The core programming language for all projects.
+- **Jupyter Notebook**: Utilized in the Electricity Rates Project for data analysis and visualization.
+- **APIs**: The Card Draw project makes use of the [Deck of Cards API](https://deckofcardsapi.com/) to simulate card drawing.
+- **GitHub CodeSpaces**: Enables running and testing code directly in the cloud.
+
+---
+
+## Contact
+
+If you have any questions or want to collaborate, feel free to reach out to **Céaman Collins** on [GitHub](https://github.com/CeamanCollins).
