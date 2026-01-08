@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository contains a collection of completed projects and scripts, showcasing a variety of tasks designed to strengthen and demonstrate programming skills. Each project tackles unique challenges and provides opportunities to explore different areas of software development.
+This repository contains a collection of completed projects and scripts, showcasing a variety of tasks designed to strengthen and demonstrate programming skills. Each project tackles unique challenges and provides opportunities to explore different areas of python programming and data analytics.
 
 ---
 
 ## Contents
 
-### 1. Maths Game
+### 1. [Maths Game](./maths_game/)
 - A simple mathematics game with various modes designed to help users practice basic math skills.
 - **How to Run**:  
   - In CodeSpaces or VSCode, or via the command line:
@@ -23,7 +23,7 @@ This repository contains a collection of completed projects and scripts, showcas
 
 ---
 
-### 2. Electricity Rates Project
+### 2. [Electricity Rates Project](./electricity_rates/)
 - Several notebooks analyze 2024 electricity usage data for multiple addresses and compare it to various tariffs to determine the best option. The project includes visualizations of electricity consumption and feed-ins for better decision-making.
 - **How to Run**:  
   - View the notebooks on GitHub or execute them in CodeSpaces, VSCode, or a local Jupyter Notebook server.
@@ -39,7 +39,7 @@ This repository contains a collection of completed projects and scripts, showcas
 
 ---
 
-### 3. Card Draw
+### 3. [Card Draw](./card_draw/)
 - A script that uses an API to draw 5 cards from a virtual deck and congratulates the user if a special poker hand is drawn (e.g., pairs, triples, straights, flushes, etc.).
 - **How to Run**:  
   - In CodeSpaces or VSCode, or via the command line:
@@ -56,7 +56,7 @@ This repository contains a collection of completed projects and scripts, showcas
 
 ## How to Get Started
 
-1. **Choose a Project**: Navigate to one of the project folders (`maths_game`, `electricity_rates`, or `card_draw`) to explore the specifics.
+1. **Choose a Project**: Navigate to one of the project folders ([`maths_game`](./maths_game/), [`electricity_rates`](./electricity_rates/), or [`card_draw`](./card_draw/)) to explore the specifics.
 2. **Run the Code**: Follow the setup and execution instructions for each project to run them in your local or cloud-based Python environment.
 3. **Install Dependencies**: For projects requiring dependencies, use `pip` or `conda` as described above.
 
