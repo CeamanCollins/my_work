@@ -8,6 +8,7 @@ class Menu:
             print("2. Check hand for combinations")
             print("3. Exit")
             menu_input = input("Please select an option: ")
+            print()
             if menu_input == "1":
                 deck = Deck()
                 hand = Hand(deck)
@@ -171,5 +172,4 @@ class Hand:
             print(f"You have drawn a high card: {self.high_card}. Better luck next time!")
 
 if __name__ == "__main__":
-    menu = Menu()
-    menu.display()
+    Menu().display()
