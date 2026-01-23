@@ -43,18 +43,19 @@ The goal of this project was to demonstrate knowledge of APIs in Python and hand
 2. Ensure Python is installed on your machine.
 3. Install all required dependencies via the `requirements.txt` file:
 
-```bash
-pip install -r requirements.txt
-```
+   Using `pip`:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Using `conda`:
-Alternatively, create a Conda environment and install the required dependencies:
+   Using `conda`:
+   Alternatively, create a Conda environment and install the required dependencies:
 
-```bash
-conda create --name <environment-name> --file requirements.txt
-```
+   ```bash
+   conda create --name <environment-name> --file requirements.txt
+   ```
 
-4. Run the program:
+5. Run the program:
    ```bash
    python carddraw.py
    ```
