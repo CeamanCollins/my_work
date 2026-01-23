@@ -41,7 +41,20 @@ The goal of this project was to demonstrate knowledge of APIs in Python and hand
    cd my_work/card_draw
    ```
 2. Ensure Python is installed on your machine.
-3. Run the program:
+3. Install all required dependencies via the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Using `conda`:
+Alternatively, create a Conda environment and install the required dependencies:
+
+```bash
+conda create --name <environment-name> --file requirements.txt
+```
+
+4. Run the program:
    ```bash
    python carddraw.py
    ```
@@ -58,7 +71,7 @@ You can view the script [here](./carddraw.py).
 
 - **Python**: The core programming language used for the script.
 - **API Integration**: Utilized the [Deck of Cards API](https://deckofcardsapi.com/) to simulate card drawing.
-- **Standard Library**: Features Python's built-in data structures such as dictionaries, sets, and lists for data processing.
+- **Requests**: Python package that simplifies making HTTP requests, such as GET and POST, and interacting with web services.
 - **GitHub CodeSpaces**: Used for testing and running the script in the cloud-based development environment.
 
 ---
