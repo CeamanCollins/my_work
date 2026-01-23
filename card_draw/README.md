@@ -6,20 +6,19 @@ This **Card Draw** script was created as part of the *Programming and Scripting*
 
 The script uses an API to draw a hand of 5 cards and display them to the user. It also checks for special poker hands, such as pairs, triples, straights, or flushes, and congratulates the user if any are drawn.
 
+The script has been expanded to include a menu system and the option to input a custom hand to check for special hands.
+
 The goal of this project was to demonstrate knowledge of APIs in Python and handling structured data with dictionaries, sets, and lists.
+
+Included is a [unit test](unit_test.py) file that was used to check the script was working as intended.
 
 ---
 
 ## Features
 
 - Draws 5 cards from a virtual deck using the [Deck of Cards API](https://deckofcardsapi.com/).
-- Detects special poker hands, including:
-  - Pairs
-  - Triples
-  - Straights
-  - Flushes
-  - Full houses
-  - Four of a kind
+- Allows input of 5 custom cards to form a hand.
+- Detects all poker hands.
 - Provides congratulatory messages based on the detected hand.
 
 ---
@@ -31,7 +30,7 @@ The goal of this project was to demonstrate knowledge of APIs in Python and hand
 2. Navigate to the **card_draw** folder.
 3. Execute the program by running:
    ```bash
-   python carddraw.py
+   python card_draw.py
    ```
 
 ### Running Locally:
@@ -57,14 +56,14 @@ The goal of this project was to demonstrate knowledge of APIs in Python and hand
 
 5. Run the program:
    ```bash
-   python carddraw.py
+   python card_draw.py
    ```
    On Windows:
    ```bash
-   [path-to-python]\python.exe carddraw.py
+   [path-to-python]\python.exe card_draw.py
    ```
 
-You can view the script [here](./carddraw.py).
+You can view the script [here](./card_draw.py).
 
 ---
 
@@ -74,6 +73,7 @@ You can view the script [here](./carddraw.py).
 - **API Integration**: Utilized the [Deck of Cards API](https://deckofcardsapi.com/) to simulate card drawing.
 - **Requests**: Python package that simplifies making HTTP requests, such as GET and POST, and interacting with web services.
 - **GitHub CodeSpaces**: Used for testing and running the script in the cloud-based development environment.
+- **Unit Test**: Software testing by which isolated source code is tested to validate expected behavior.
 
 ---
 
