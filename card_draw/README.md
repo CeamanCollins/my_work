@@ -91,10 +91,7 @@ The following resources were used during development:
 
 ## Future Enhancements
 
-- Adding more poker hand rankings such as straight flushes and royal flushes.
 - Creating a GUI-based interface for an optimized user experience.
-- Allowing players to input their own cards to check for poker hands.
-- Implementing a "high card" detection as a fallback for no special hands.
 
 ---
 
