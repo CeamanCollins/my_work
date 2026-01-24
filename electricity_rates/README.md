@@ -12,19 +12,19 @@ This folder contains analyses of 2024 electricity usage for multiple addresses, 
 - This notebook analyzes electricity usage for the address 1MC.
 - It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
 
-### 2. [Ardamine Analysis](./ardamine.ipynb)
+### 2. [23OLR Analysis](./23olr.ipynb)
+- This notebook analyzes electricity usage for the address 23OLR.
+- It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
+
+### 3. [Ardamine Analysis](./ardamine.ipynb)
 - This notebook analyzes electricity usage for the address Ardamine.
 - It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
 
-### 3. [Weekly Electricity Visualization](./electricity_week.ipynb)
+### 4. [Weekly Electricity Visualization](./electricity_plots.ipynb)
 - This notebook visualizes electricity usage and electricity fed back into the network at three addresses:
   - 1MC
   - 23OLR
   - Ardamine
-
-### 4. [23OLR Analysis](./electricity.ipynb)
-- This notebook analyzes electricity usage for the address 23OLR.
-- It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
 
 ### 5. [Feed-in Tariff Analysis](./feed_in.ipynb)
 - This notebook calculates the financial benefit earned through feeding excess electricity back into the network.
