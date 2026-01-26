@@ -36,7 +36,7 @@ This folder contains analyses of 2024-25 electricity usage and production for mu
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/CeamanCollins/my_work.git
-   cd my_work/electricity_rates
+   cd my_work/electricity_rates_2026
    ```
 2. Install the required dependencies:
    - **Using Pip**:
