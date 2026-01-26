@@ -8,12 +8,12 @@ This folder contains analyses of 2024-25 electricity usage and production for mu
 
 ## Contents
 
-### 1. [1MC Analysis](./energy_cost_comparison_2026_1mc.ipynb)
+### 1. [1MC Analysis](./electricity_rates_2026_1mc.ipynb)
 - This notebook analyzes electricity usage and production and gas usage for the address 1MC.
 - It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
 - Takes into account standing charges, new customer bonuses and microgeneration returns.
 
-### 2. [23OLR Analysis](./energy_cost_comparison_23olr.ipynb)
+### 2. [23OLR Analysis](./electricity_rates_23olr.ipynb)
 - This notebook analyzes electricity usage and production and gas usage for the address 23OLR.
 - It calculates totals for each rate stratification and compares them against several available tariffs to determine the best option.
 - Takes into account standing charges, new customer bonuses and microgeneration returns.
@@ -29,8 +29,8 @@ This folder contains analyses of 2024-25 electricity usage and production for mu
 
 ### Running in GitHub CodeSpaces:
 1. Open the repository in [GitHub CodeSpaces](https://github.com/features/codespaces).
-2. Navigate to the **electricity_rates** folder.
-3. Open the desired notebook (e.g., `1mc.ipynb`) and execute it cell by cell.
+2. Navigate to the **electricity_rates_2026** folder.
+3. Open the desired notebook (e.g., `electricity_rates_2026_1mc.ipynb`) and execute it cell by cell.
 
 ### Running Locally:
 1. Clone the repository to your local machine:
