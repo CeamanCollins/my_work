@@ -39,7 +39,23 @@ This repository contains a collection of completed projects and scripts, showcas
 
 ---
 
-### 3. [Card Draw](./card_draw/)
+### 3. [Electricity Rates Project](./electricity_rates_2026/)
+- Two notebooks analyze 2024-2025 electricity usage data for two addresses and compare it against various tariffs including microgeneration calculations, standing fees and bonuses, to determine the best option for the coming year.
+- **How to Run**:  
+  - View the notebooks on GitHub or execute them in CodeSpaces, VSCode, or a local Jupyter Notebook server.
+- **Requirements**: Dependencies can be installed as follows:
+  - **Using Pip**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - **Using Conda**:
+    ```bash
+    conda create --name <environment-name> --file requirements.txt
+    ```
+
+---
+
+### 4. [Card Draw](./card_draw/)
 - A script that uses an API to draw 5 cards from a virtual deck and congratulates the user if a special poker hand is drawn (e.g., pairs, triples, straights, flushes, etc.).
 - **How to Run**:  
   - In CodeSpaces or VSCode, or via the command line:
