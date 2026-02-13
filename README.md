@@ -60,13 +60,36 @@ This repository contains a collection of completed projects and scripts, showcas
 - **How to Run**:  
   - In CodeSpaces or VSCode, or via the command line:
     ```bash
-    python carddraw.py
+    python card_draw.py
     ```
     On Windows:
     ```bash
-    [path-to-python]\python.exe carddraw.py
+    [path-to-python]\python.exe card_draw.py
     ```
 - **Requirements**: No external packages are required; the script uses only Python's standard library.
+
+---
+
+### 6. [Maths Game TK](./maths_game_tk/)
+- A version of [Maths Game](./maths_game/) that uses Tkinter to produce a graphical user interface.
+- **How to Run**:  
+  - In VSCode, or via the command line:
+    ```bash
+    python maths_game_tk.py
+    ```
+    On Windows:
+    ```bash
+    [path-to-python]\python.exe maths_game_tk.py
+    ```
+- **Requirements**: Dependencies can be installed as follows:
+  - **Using Pip**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - **Using Conda**:
+    ```bash
+    conda create --name <environment-name> tk conda-forge::ttkwidgets
+    ```
 
 ---
 

@@ -1,2 +1,2 @@
-tkinter
-tkwidgets
+tk
+ttkwidgets # available through conda-forge::tkkwidgets
